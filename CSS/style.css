@@ -91,12 +91,9 @@ button {
   left: 700px;
   top: 417px;
 }
-.main-button:hover,
-.main-button:focus {
-  background-color: #2196f3;
-  color: #fff;
-}
 
+.main-button:hover,
+.main-button:focus,
 button:hover,
 button:focus {
   background-color: #2196f3;
