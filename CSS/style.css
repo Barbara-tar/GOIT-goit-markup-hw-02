@@ -92,6 +92,7 @@ button {
   top: 417px;
 }
 
+.main-buttton,
 button:hover,
 button:focus {
   background-color: #2196f3;
