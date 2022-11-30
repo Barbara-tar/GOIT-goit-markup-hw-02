@@ -91,6 +91,11 @@ button {
   left: 700px;
   top: 417px;
 }
+.main-button:hover,
+.main-button:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
 
 button:hover,
 button:focus {
