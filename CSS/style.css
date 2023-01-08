@@ -131,7 +131,7 @@ button:focus {
 }
 
 .card {
-  text-align: end;
+  text-align: left;
   font-size: 1rem;
   letter-spacing: 0.03rem;
   background: #fff;
