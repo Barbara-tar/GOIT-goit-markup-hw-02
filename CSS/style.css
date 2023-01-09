@@ -39,7 +39,7 @@ section {
   padding: 0 215px 0 215px;
 }
 
-.page {
+.menu {
   text-decoration: none;
   font-weight: 500;
   font-size: 0.875rem;
@@ -58,11 +58,11 @@ h3 {
   text-align: left;
 }
 
-.page:hover {
+.menu:hover {
   color: #2196f3;
 }
 
-.page:focus {
+.menu:focus {
   color: #2196f3;
 }
 
@@ -78,7 +78,7 @@ button {
   cursor: pointer;
 }
 
-.main-button {
+.button-click {
   background-color: #2196f3;
   color: #fff;
   padding: 10px 40px 10px 40px;
@@ -86,8 +86,8 @@ button {
   height: 50px;
 }
 
-.main-button:hover,
-.main-button:focus {
+.button-click:hover,
+.button-click:focus {
   background-color: #fff;
   color: #2196f3;
 }
@@ -149,7 +149,7 @@ footer {
   color: #fff;
 }
 
-.page-footer {
+.menu-footer {
   font-size: 0.875rem;
   line-height: 1, 71;
   letter-spacing: 1, 713rem;
@@ -157,11 +157,11 @@ footer {
   color: #ffffff99;
 }
 
-.page-footer:hover {
+.menu-footer:hover {
   color: #2196f3;
 }
 
-.page-footer:focus {
+.menu-footer:focus {
   color: #2196f3;
 }
 
