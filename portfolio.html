@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>My project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,189 +14,169 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Nagłówek makiety -->
-    <header>
-      <a class="header-logo" href="index.html"
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <!--Menu makiety-->
+    <header class="heads">
+      <a href="index.html"><span>Web</span>Studio</a>
       <nav>
-        <ul class="list nav-list">
-          <li><a class="nav-list-item-link" href="index.html">Agencja</a></li>
-          <li><a class="nav-list-item-link" href="#">Portfolio</a></li>
-          <li><a class="nav-list-item-link" href="#">Kontakt</a></li>
+        <ul class="ul-info-port">
+          <li><a href="#">Agencja</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <a class="header-address" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="header-phone" href="tel:+48111111111">+48 111 111 111</a>
+      <div>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:+48111111111">+48 111 111 111</a>
+      </div>
     </header>
     <main>
-      <!--Portfolio filters-->
       <section>
-        <ul class="list filter">
+        <nav>
+          <ul class="ul-info-port">
+            <li><input class="active" type="button" value="Wszystkie" /></li>
+            <li><input type="button" value="Strony" /></li>
+            <li><input type="button" value="Aplikacje" /></li>
+            <li><input type="button" value="Dizajn" /></li>
+            <li><input type="button" value="Marketing" /></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <ul class="ul-info-port">
           <li>
-            <button class="filter-button" type="button">Wszystkie</button>
-          </li>
-          <li>
-            <button class="filter-button" type="button">Strony</button>
-          </li>
-          <li>
-            <button class="filter-button" type="button">Aplikacje</button>
-          </li>
-          <li>
-            <button class="filter-button" type="button">Dizajn</button>
-          </li>
-          <li>
-            <button class="filter-button" type="button">Marketing</button>
-          </li>
-        </ul>
-        <!--Portfolio projects-->
-        <ul class="list projects">
-          <li>
-            <figure class="project-card">
+            <figure>
               <img
                 src="images/portfolio/technocrack.jpg"
-                alt="Laptop ze zdjęciami osób na ekranie"
+                alt="Technocrack Strona Internetowa"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">Technocrack</h3>
-                <p class="project-card-text">Strona internetowa</p>
+              <figcaption>
+                <h3>Technocrack</h3>
+                <p>Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="project-card">
+            <figure>
               <img
-                src="images/portfolio/neworleansvsgoldenstate.jpg"
-                alt="Scena z meczu koszykówki ligi NBA pomiędzy New Orleans a Golden State"
+                src="images/portfolio/Basketball.jpg"
+                alt="New Orleans vs Golden State"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">
-                  Grafika New Orlean vs Golden Star
-                </h3>
-                <p class="project-card-text">Dizajn</p>
+              <figcaption>
+                <h3>Grafika New Orleans vs Golden State</h3>
+                <p>Dizajn</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="project-card">
+            <figure>
               <img
-                src="images/portfolio/seafoodrestaurant.jpg"
-                alt="Logo restauracji Sefood z nazwą i rybą w tle"
+                src="images/portfolio/Seafood.jpg"
+                alt="Restauracja Seafood"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">Restauracja Seafood</h3>
-                <p class="project-card-text">Aplikacja</p>
+              <figcaption>
+                <h3>Restauracja Seafood</h3>
+                <p>Aplikacja</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="project-card">
+            <figure>
               <img
-                src="images/portfolio/projectprime.jpg"
-                alt="Zdjęcie słuchawek nausznych"
+                src="images/portfolio/Prime.jpg"
+                alt="Projekt Prime"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">Projekt Prime</h3>
-                <p class="project-card-text">Marketing</p>
+              <figcaption>
+                <h3>Projekt Prime</h3>
+                <p>Marketing</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="project-card">
+            <figure>
               <img
-                src="images/portfolio/projectboxes.jpg"
-                alt="Zjęcie dwóch pudełek - białego i cielistego"
+                src="images/portfolio/Boxes.jpg"
+                alt="Projekt Boxes"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">Projekt Boxes</h3>
-                <p class="project-card-text">Aplikacja</p>
+              <figcaption>
+                <h3>Projekt Boxes</h3>
+                <p>Aplikacja</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="project-card">
+            <figure>
               <img
-                src="images/portfolio/inspirationhasnoborders.jpg"
-                alt="Monitor Apple z informacjami"
+                src="images/portfolio/Inspiration.jpg"
+                alt="Inspiracja Bez Granic"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">Inspiration has no Borders</h3>
-                <p class="project-card-text">Strona internetowa</p>
+              <figcaption>
+                <h3>Inspiration has no borders</h3>
+                <p>Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="project-card">
+            <figure>
               <img
-                src="images/portfolio/magazinelimitededition.jpg"
-                alt="Otwarta ksiązka z róznymi zdjęciami"
+                src="images/portfolio/Magazine.jpg"
+                alt="Magazyn Edycja Limitowana"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">Magazyn Limited Edition</h3>
-                <p class="project-card-text">Dizajn</p>
+              <figcaption>
+                <h3>Magazyn Limited Edition</h3>
+                <p>dizajn</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="project-card">
+            <figure>
               <img
-                src="images/portfolio/projectlab.jpg"
-                alt="Etykieta z napisem Label Tag"
+                src="images/portfolio/ProjectLab.jpg"
+                alt="Projekt LAB"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">Projekt LAB</h3>
-                <p class="project-card-text">Marketing</p>
+              <figcaption>
+                <h3>Projekt LAB</h3>
+                <p>Marketing</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="project-card">
+            <figure>
               <img
-                src="images/portfolio/growingbusiness.jpg"
-                alt="Osoba pisząca coś na laptopie"
+                src="images/portfolio/GrowingBusiness.jpg"
+                alt="Rozwój Biznesu"
                 width="370"
                 height="294"
               />
-              <figcaption class="project-descrip">
-                <h3 class="project-card-title">Growing Business</h3>
-                <p class="project-card-text">Aplikacja</p>
+              <figcaption>
+                <h3>Growing Biznes</h3>
+                <p>Aplikacja</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <!--Footer-->
-    <footer class="footer-color">
-      <a class="footer-logo" href="index.html"
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <address class="footer-address">
-        m. Warszawa, Aleje Jerozolimskie 21 <br />
-        <a class="footer-address-link-u" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <br />
-        <a class="footer-phone-link" href="tel:+48111111111">+48 111 111 111</a>
+    <footer class="footer-info">
+      <a href="index.html"><span>Web</span>Studio</a>
+      <address class="address-info">
+        <div>m.Warszawa, Aleje Jerozolimskie 21</div>
+        <a href="mailto:info@example.com">info@example.com</a>
+        <a href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
