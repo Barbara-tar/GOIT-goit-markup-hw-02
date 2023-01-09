@@ -1,17 +1,24 @@
-body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--main-color);
-  width: 1600px;
-  height: 2349px;
-  font-style: normal;
-  background: #ffffff;
-  color: #212121;
+:root {
+  --main-color: #212121;
+  --support-color: #757575;
+  --higlight-color: #2196f3;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --footer-link-color: #ffffff 60%;
+  --background-color: #2f303a;
+  --box-shadow-color: rgba(0, 0, 0, 0.15);
+  --team-color: #f5f4fa;
 }
 
-/* Nagłówek*/
+body {
+  font-family: "Roboto", sans-serfif;
+  color: var(--main-color);
+}
 
-.logo-front,
-.logo-back {
+/* Nagłówek makiety */
+
+.header-logo,
+.logo-web {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -21,11 +28,12 @@ body {
   color: var(--black-color);
 }
 
-.logo-back {
+.logo-web {
   color: var(--higlight-color);
 }
 
-.navigation {
+.header-address,
+.header-phone {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -34,13 +42,15 @@ body {
   color: var(--support-color);
 }
 
-.navigation:hover,
-.navigation:focus {
+.header-address:hover,
+.header-phone:hover,
+.header-address:focus,
+.header-phone:focus {
   color: var(--higlight-color);
   text-decoration: underline;
 }
 
-/* Menu*/
+/* Menu makiety */
 
 .list {
   list-style-type: none;
@@ -61,13 +71,13 @@ body {
   text-decoration: underline;
 }
 
-/* Header*/
+/* Header makiety */
 
-.top {
+.hero {
   background-color: var(--background-color);
 }
 
-.top-title {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -77,7 +87,7 @@ body {
   color: var(--white-color);
 }
 
-.top-button {
+.hero-button {
   background: var(--higlight-color);
   box-shadow: 0px 4px 4px var(--box-shadow-color);
   border-radius: 4px;
@@ -91,7 +101,7 @@ body {
 
 /* Nasze atuty*/
 
-.main-title {
+.trumps-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -100,7 +110,7 @@ body {
   color: var(--main-color);
 }
 
-.main-item {
+.trumps-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -231,7 +241,9 @@ body {
 .footer-address-link:hover,
 .footer-phone-link:hover,
 .footer-address-link:focus,
-.footer-phone-link:focus {
+.footer-phone-link:focus,
+.footer-address-link-u:hover,
+.footer-address-link-u:focus {
   color: var(--higlight-color);
   text-decoration: underline;
 }
