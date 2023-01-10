@@ -69,6 +69,7 @@ body {
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  background-color: #2f303a;
 }
 .section-info {
   font-family: "Roboto";
